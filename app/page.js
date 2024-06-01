@@ -5,11 +5,15 @@ import TestimonialCarousel from "./testimonials/page";
 import ShareNotes from "./components/ShareNotes";
 import NavBar from "./navbar/NavBar";
 import Footer from "./footer/Footer";
+import Hero from "./hero/hero";
+import About from "./hero/about";
 
 export default function Home() {
   return (
     <div>
-      <NavBar/>
+      {/* <NavBar/> */}
+      <Hero />
+      <About />
       <NotesBranchWise/>
       <TestimonialCarousel/>
       <ShareNotes/>

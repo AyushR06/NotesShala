@@ -30,3 +30,141 @@ input,
 textarea {
   @apply shadow-md px-6 py-2 border border-slate-300;
 }
+
+.hero{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  
+  
+}
+.heading{
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-start;
+}
+
+.hero-h1{
+  font-family: "montserrat";
+  margin-top: 2.5rem;
+  margin-left: 3.1rem;
+  font-weight: 700;
+  font-size:1.3rem;
+  color: #000000;
+  
+}
+
+ .hero .heading .sign-btn{
+  background-color: rgb(84,197,248);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-right: 3.1rem;
+  margin-top: 2.5rem;
+  border-radius: 13px;
+  color: white
+  ;
+ 
+}
+
+.border{
+  border-top: 2px solid black;
+  border-radius: 20px;
+  margin: 2rem 1.3rem;
+  height: 80vh;
+  width: 8.2 5rem;
+
+}
+.border2{
+  z-index: 99999;
+  
+  margin: -83.90vh 1.36rem;
+  height: 80vh;
+  width: 8.2 5rem;
+   
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)) 0.5 100%;
+
+  
+
+}
+.inner-heading1{
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-top: 3.8rem;
+}
+.inner-heading2{
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 4.8rem;
+  font-weight: 500;
+  margin-top: -0.8rem;
+  color: white;
+  text-shadow: 
+    -1px 1px 0 black, 
+    1px -1px 0 black, 
+    -1px 1px 0 black, 
+  1px 1px 0 black;
+  -webkit-text-stroke: 1px black;
+}
+.heading img{
+  height: 50vh;
+  width: 20vh;
+}
+.p1{
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "montserrat";
+}
+
+
+.p2{
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "montserrat";
+}
+
+.header{
+  margin-top: 4rem;
+  font-family: "montserrat";
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin:4rem  1.3rem 0 ;
+
+
+}
+
+.para{
+  font-weight: 400;
+  margin-left:1.3rem;
+  margin-right: 1.3rem;
+  font-family: "montserrat";
+
+}
+@media (max-width: 768px) {
+  .hero-h1 {
+      font-size: 1.8rem;
+  }
+  .sign-btn{
+    height: 1rem;
+    width: 3rem;
+    
+  }
+  .inner-heading1 {
+      font-size: 2rem;
+
+  }
+  .inner-heading2{
+      font-size: 2.7rem;
+  }
+
+  .p1, .p2 {
+      font-size: 1rem;
+  }
+  .para{
+    font-size: 1rem;
+  }
+}
